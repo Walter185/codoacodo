@@ -26,13 +26,23 @@
     "@angular-devkit/build-angular": "^14.0.1",
     "@angular/cli": "~14.0.1",
     "@angular/compiler-cli": "^14.0.0",
+    "@babel/register": "latest",
     "@types/jasmine": "~4.0.0",
+    "@wdio/cli": "latest",
+    "@wdio/jasmine-framework": "latest",
+    "@wdio/local-runner": "latest",
+    "@wdio/schematics": "^1.2.1",
+    "@wdio/spec-reporter": "latest",
+    "chromedriver": "latest",
+    "jasmine": "^4.3.0",
     "jasmine-core": "~4.1.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "typescript": "~4.7.2"
+    "typescript": "~4.7.2",
+    "wdio-chromedriver-service": "latest",
+    "wdio-vscode-service": "latest"
   }
 }

@@ -94,8 +94,22 @@
             ],
             "scripts": []
           }
+        },
+        "wdio-run": {
+          "builder": "@wdio/schematics:wdio",
+          "options": {
+            "devServerTarget": "codoacodo:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "codoacodo:serve:production"
+            }
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }
